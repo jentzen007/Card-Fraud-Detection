@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Form">
+        <center>
+            <h1>Enter Your Card Details</h1>
+            <form id="cardForm">
+                <table>
+                    <tr>
+                        <td>Cardholder Name:</td>
+                        <td><input type="text" placeholder="John Doe" id="CardHolderName" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td>Card Number:</td>
+                        <td><input type="text" placeholder="0000 0000 0000 0000" id="CardNumber" name="number" maxlength="16" required></td>
+                    </tr>
+                    <tr>
+                        <td>Valid From:</td>
+                        <td><input type="date" placeholder="MM/YYYY" id="CardFrom" name="from" required></td>
+                    </tr>
+                    <tr>
+                        <td>Valid Till:</td>
+                        <td><input type="date" placeholder="MM/YYYY" id="CardTill" name="to" required></td>
+                    </tr>
+                    <tr>
+                        <td>Card Type:</td>
+                        <td>
+                            <select id="CardType" name="cardType" required>
+                                <option value="Debit">Debit</option>
+                                <option value="Credit">Credit</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CVV:</td>
+                        <td><input type="text" placeholder="000" id="cvv" name="cvv" maxlength="3" required></td>
+                    </tr>
+                </table>
+                <button id="submitBtn">Submit</button>
+            </form>
+            
+        </center>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
