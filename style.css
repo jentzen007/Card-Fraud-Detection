@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+
+body {
+    background-image: url(image.jpeg);
+    background-position: center;
+    background-size:120vmax;
+    height: auto;
+    font-family: "SUSE";
+    font-size: 25px;
+    color: rgba(210, 210, 210, 0.866);
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+button {
+    background-color: rgba(192, 149, 75, 0.637);
+    margin-top: 20px;;
+    color: white;
+    transition-duration: 200ms;
+    width: 145px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: transparent;
+}
+
+button:hover {
+    background-color: rgb(188, 186, 182);
+    color: black;
+    transition-duration: 200ms;
+}
+button:active {
+    background-color: black;
+}
+
+form {
+    display: grid;
+    color: rgba(255, 255, 255, 0.637);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;;
+    background-color: rgba(42, 42, 42, 0.503);
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 17px;
+    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(5px);
+}
+
+input {
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: rgba(210, 210, 210, 0.148);
+    margin: 5px;
+    color: white;
+}
+
+.cvv {
+    width: 13%;
+}
+
+select {
+    border-radius: 4px;
+    border-color: transparent;
+    background-color: rgba(210, 210, 210, 0.148);
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.716);
+}
+
+option{
+    color: black;
+}
+
+.cVv {
+    width: 23px;
+}
+
