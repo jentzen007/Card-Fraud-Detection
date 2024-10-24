@@ -1,0 +1,26 @@
+.container {
+    background-color: rgba(0, 0, 0, 0.479);
+    text-align: center;
+    justify-content: center;
+    max-width: 300px;
+    padding: 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+.inputt {
+    float: left;
+}
+
+input {
+    margin: 10px;
+}
+
+#loginBtn {
+    width: 250px;
+    margin-top: 15px;
+}
+
+#link {
+    margin-top: 10px;
+}
